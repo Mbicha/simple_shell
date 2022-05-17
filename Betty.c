@@ -5,19 +5,20 @@
 * @num - is the input thats to be divided.
 * Return 0
 **/
-int main()
+int main(void)
 {
 	int num;
+	
 	printf("Enter your number: \n");
-	scanf("%d",&num);
+	scanf("%d num);
 	
 	int rem = num%2;
 		if (rem == 0);
 		{
-			printf("%d is divisible by 2\n",num);
+			printf("%d is divisible by 2\n", num);
 		}
 		{
-			printf("%d is the remainder \n",rem);
+			printf("%d is the remainder \n", rem);
 		}
 		return (0);
 }
