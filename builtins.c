@@ -1,21 +1,21 @@
 #include "main.h"
 /**
-**shell_exit - exits the shell
+**_exit - exits the shell
 **Return: void
 **/
 
-	int shell_exit(void)
+	int _exit(void)
 	{
 		return (-1);
 	}
 
 
 /**
-**shell_env - prints environment
+**_env - prints environment
 **Return: void
 **/
 
-	int shell_env(void)
+	int _env(void)
 	{
 		unsigned int i;
 

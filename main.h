@@ -59,10 +59,10 @@ int _strncmp(char *name, char *variable, unsigned int length);
 char *_strcpy(char *dest, char *src);
 
 /* prototypes for builtins */
-int shell_env(void);
-int shell_exit(void);
+int _env(void);
+int _exit(void);
 int builtin_execute(char **tokens);
-int shell_num_builtins(built_s builtin[]);
+int _num_builtins(built_s builtin[]);
 
 /* prototypes for the helper functions for path linked list */
 char *_getenv(const char *name);
