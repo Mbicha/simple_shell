@@ -12,8 +12,8 @@ int builtin_execute(char **tokens)
 	unsigned int i;
 
 	built_s builtin[] = {
-		{"exit", _exit},
-		{"env", _env},
+		{"exit", shell_exit},
+		{"env", shell_env},
 		{NULL, NULL}
 	};
 
@@ -22,7 +22,7 @@ int builtin_execute(char **tokens)
 
 	length = _strlen(tokens[0]);
 
-	num = _num_builtins(builtin);
+	num = shell_num_builtins(builtin);
 	for (i = 0; i < num; i++)
 	{
 		if (_strcmp(tokens[0], builtin[i].name, length) == 0)
@@ -35,12 +35,12 @@ int builtin_execute(char **tokens)
 }
 
 /**
-**_num_builtins - this check num built-ins
+**shell_num_builtins - this check num built-ins
 **@builtin: takes the builtin to be counted
 **Return: num of built-ins
 **/
 
-int _num_builtins(built_s builtin[])
+int shell_num_builtins(built_s builtin[])
 {
 	unsigned int i;
 
