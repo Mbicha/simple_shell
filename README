@@ -1,0 +1,26 @@
+.SH Project
+
+Group Members:
+
+Nelly Wangari
+Added the utiliy functions for directory listing and change
+
+Charles Mbithi
+
+Added the utility functions for clearing screen, listing environment variables
+
+
+
+Objectives:
+
+Learn to work in groups to develop software using Git
+
+
+Gain experience developing multi-source file projects in C
+
+
+Experience using Makefiles and other software build tools
+
+
+Description:
+Design a simple command line shell and implement it on the specified UNIX platform The Shell or Command Line Interpreter is the fundamental User interface to an Operating System. The lab project is to write a simple shell - .SH - that has the following functions:
