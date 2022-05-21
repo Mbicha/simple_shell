@@ -3,7 +3,7 @@
  * main - main loop of shell
  * Return: 0 on success
  */
-int main()
+int main(void)
 {
 	char *line, *path, *fullpath;
 	char **tokens;
